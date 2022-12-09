@@ -4,7 +4,7 @@ import './Estilos.css';
 
 export const Inicio = () => {
 
-  const[restaurante, setRestaurante] = useState(restaurantes);
+  const[restaurante] = useState(restaurantes);
     
     return  (
         <div id="container" className="container">
